@@ -1,0 +1,81 @@
+
+
+.counter {
+    display: flex;
+    align-items: center;
+    padding: 95px  46px 100px;
+    box-shadow: 30px 30px 50px rgb(208, 208, 207);
+    border: 2px solid;
+    width: 118px;
+    height: 80px;
+    border-radius: 7%;
+    background-color: rgb(25, 35, 44);
+    /*box-shadow: 5px 5px 10px rgba(49, 67, 79, 0.844);*/
+    
+    font-weight: 600;
+    font-family: 'Tillana', cursive;
+    color: #b4d3c9;
+    justify-content: center;
+    
+}
+
+h1 {
+    color: #333;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 48px;
+    transition: opacity 0.5s ease;
+    
+}
+
+.container {
+    background-color: #727b84c9;
+    width: 14%;
+    height: 50%;
+    border-radius: 10px;
+    margin: 15% 35% 15%;
+    padding: 10px 46px 10px;
+}
+
+button {
+    margin: 0px 5px 0px;
+    padding: 10px 20px ;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 7px;
+    color: white;
+    background-color: rgba(151, 116, 156, 0.526);
+    border: 1px solid;
+}
+
+button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid;
+}
+
+.clear-history-button {
+    background-color: rgba(151, 116, 156, 0.526);
+    /* Red color for clear history button */
+    width: 97%;
+    border: 1px solid;
+    margin: 5px 5px 0px;
+}
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: 36px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
+
+p {
+    color: red;
+    font-weight: bold;
+}
